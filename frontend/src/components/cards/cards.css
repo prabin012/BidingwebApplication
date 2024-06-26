@@ -1,0 +1,85 @@
+.card{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(12, 225, 218, 0.989);
+   /* background-image: url(C:\Users\Hp\OneDrive\Desktop\artGallery\frontend\public\images\a1.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.card::after{
+  content: "";
+  width: 100%;
+  height: 60vh;
+  /* background-color: rgba(0, 0, 0, 0.41); */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cards{
+    width: 100%;
+    height: 70vh;
+  background-color: rgba(1, 5, 40, 0.935);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardElemet{
+    width: 90%;
+    /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    margin-left: 90px;
+   
+}
+.b1{
+  /* color: black; */
+}
+.cardImage{
+ width: 50%;
+}
+.catdimgs{
+    width: 80%;
+    height: 80%;
+}
+.catdimg{
+  width: 90%;
+  height: 90%;
+}
+.cardImages{
+  display: flex;
+  flex-direction: column;
+}
+.stepOfBids{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxss{
+  width: 100px;
+  height: 90px;
+  font-size: 80px;
+  background-color: orangered;
+  color: white;
+  font-weight: 1000;
+  border-radius: 50%;
+  margin:0px 60px;
+  text-align: center;
+}
+.contss{
+  display: flex;
+  flex-direction: column;
+}
+.cds{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}

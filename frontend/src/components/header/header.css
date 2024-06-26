@@ -1,0 +1,118 @@
+.navbarContaner{
+    width: 100%;
+    height: 100px;
+    background-image: url(C:\Users\Hp\OneDrive\Desktop\eGallery\frontend\src\e3.jpg);
+    background-position: 100% top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+   /* background-color: rgba(2, 6, 71, 0.944); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0 0 10px rgb(216, 219, 227);
+    z-index: 999;
+}
+.userPortailImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.active{
+    background-color: orangered;
+    padding: 2px 20px;
+}
+.navbarElement{
+    width: 90%;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    padding: 10px;
+}
+.navbarLogo{
+    flex: 2;
+    margin-left: 100px;
+
+}
+.logotext{
+    font-size: 26px;
+    font-weight: 1000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    
+}
+.userPortail{
+    font-size: 16px;
+    border-bottom: 1px solid orangered;
+    color: rgb(255, 253, 253);
+}
+
+.narbarItem{
+    flex: 1;
+    margin-left: 130px;
+    width: 50%;
+}
+
+.navbarList{
+    display: flex;
+}
+.navbartext{
+    margin: 0px 10px;
+    list-style: none;
+    /* width: 100%; */
+   
+}
+.Links{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    display: flex;
+    padding: 5px 20px;
+    transition: all .5s ease;
+}
+.Links:hover{
+    background-color: orangered;
+}
+.regis{
+    background-color: orangered;
+   border-radius: 5px;
+}
+.regis:hover{
+    background-color: blue;
+}
+.logout{
+   
+    font-size: 16px;
+    color: white;
+
+    cursor: pointer;
+    padding: 6px 20px;
+
+    cursor: pointer;
+    z-index: 999;
+    
+}
+.navbartext{
+    padding: 6px 20px;
+}
+.portoalUsername{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Opened{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    background-color: black;
+    padding: 20px;
+    z-index: 999;
+    cursor: pointer;
+}

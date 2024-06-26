@@ -1,0 +1,174 @@
+.eventContainer{
+    width: 100%;
+    /* background-color: rgb(158, 152, 152); */
+height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+
+}
+
+.eventElement{
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    text-align: center;
+   
+}
+.imageTittle{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    margin: 20px;
+}
+.eventsItem{
+    display: flex;
+    /* background-color: rgb(205, 203, 199); */
+    padding: 20px;
+    width: 100%;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+}
+.emgItem{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    object-fit: cover;
+    object-position: 100% top;
+}
+
+
+.eventTttles0{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.eventTttles{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+   padding-bottom:50px ;
+    font-family: 'Merriweather', serif;
+}
+.cardItem{
+    margin-top: 100px;
+    flex: 1 360px;
+    /* min-width:100%; */
+    height: auto;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+}
+.cardItem img{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 7px 7px 0px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+/* .cardItem img:hover{
+    transform: scale(1.05);
+    
+} */
+.desc{
+    padding: 4px;
+    font-size: 19px;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    flex-direction: column;
+}
+.explore{
+    padding: 15px 20px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    border: navajowhite;
+    background-color: rgb(0, 98, 255);
+    font-size: 19px;
+    cursor: pointer;
+    color: white;
+}
+.track{
+    font-weight: 1000;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+.conatinerptti{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: rgb(145, 4, 4);
+    padding: 7px 30px;
+    border-radius:  0px 10px 10px 0px;
+    color: white;
+    font-weight: 1000;
+    z-index: 999;
+}
+.blogcontainer{
+    width: 100%;
+    display: flex;
+    /* margin: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+.evennSpc{
+    top: -30px;
+    z-index: 999;
+}
+.conatDIbsab{
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    padding: 10px;
+    display: flex;
+}
+.descHR{
+    border-right:  2px dotted black;
+    display: flex;
+    flex-direction: column;
+}
+.buyNow{
+    color: red;
+    font-weight: 700;
+}
+.CurrentBid{
+    color:rgb(3, 180, 44);
+    font-weight: 700;
+}
+.bidamount{
+    color: rgb(3, 180, 44);
+    font-weight: 800;
+    padding: 4px;
+    font-size: 19px;
+    font-family: 'Caveat', cursive;
+}
+
+.allItemProduct{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.usernnt{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}

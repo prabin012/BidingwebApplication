@@ -1,0 +1,121 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    background-color: var(--backgrund);
+    overflow-x: hidden;
+}
+.conatcItems{
+    margin: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.contactContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contactAddress{
+   width: 40%;
+   height: auto;
+}
+.address{
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    height: 100px;
+    display: flex;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.addresslogo{
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(4, 4, 65);
+}
+.addresstext{
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+}
+.addressname{
+    /* padding: 10px; */
+    font-size: 25px;
+    font-weight: 800;
+}
+.aname{
+    font-size: 18px;
+    color: rgba(24, 22, 22, 0.791);
+}
+.contactForm{
+    width: 40%;
+    margin-left: 30px;
+}
+.inputfield{
+    width: 90%;
+    width: 100%;
+    margin: 20px;
+}
+.forminput{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(18, 17, 17, 0.335);
+}
+.forminput:focus{
+   outline-color: blue;
+}
+.inputTextArea{
+    min-height:120px ;
+}
+.submitbtn{
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+@media (max-width:850px) {
+    .conatcItems{
+        width: 100%;
+        margin: 5px;
+    }
+    .contactContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .addresslogo{
+        font-size: 30px;
+    }
+    .addressname{
+        font-size: 23px;
+    }
+    .aname{
+        font-size: 18px;
+    }
+    .contactAddress{
+        width: 100%;
+    }
+    .contactForm{
+        width: 100%;
+        margin: 0;
+    }
+    .contact{
+        padding: 0;
+    }
+    .inputfield{
+        margin: 20px 0px;
+    }
+}
