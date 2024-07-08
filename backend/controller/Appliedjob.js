@@ -11,7 +11,7 @@ export const ApliedJob = async(req, res)=>{
         if(isItem.userID===iid){
             return res.status(500).json({
                 success:false,
-                message:"❌  OPPS ! ,You Cannot Bid Yourself Thank You "
+                message:"❌  OPPS ! ,You Cannot Bid Yourself  Thank You "
             })
         }
         if(!isUser){
@@ -30,6 +30,7 @@ export const ApliedJob = async(req, res)=>{
             ProductID:isItem._id,
             userName:isItem.name,
             productName:isItem.productName,
+            OwnerName:isItem.userName,
             Per_bid:isItem.Per_bid,
             OriginalPrice:isItem.OriginalPrice,
             BindingProice:isItem.BindingProice+isItem.Per_bid,
@@ -48,7 +49,7 @@ export const ApliedJob = async(req, res)=>{
         
         return res.status(404).json({
             success:false,
-            message:"Already done..."
+            message:"You have already completed the bid..."
         })
       
     } catch (error) {
@@ -79,6 +80,7 @@ export const getApplied = async(req, res)=>{
 export const getApplieds = async(req, res)=>{
     try {
         const Auctions = await Aution.find()
+        console.log(Auctions)
         res.status(201).json({
             success:true,
             message:"Feteched Successfully...",

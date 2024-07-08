@@ -15,6 +15,9 @@ const appiledJobs = new mongoose.Schema({
     ProductID : {
         type:String,
     },
+    OwnerName : {
+        type:String,
+    },
     userName : {
         type:String,
     },

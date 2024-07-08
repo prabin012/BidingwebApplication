@@ -18,7 +18,7 @@ route.post('/user/apply/:iid/:jid', ApliedJob);
 route.get('/user/appliedJobs/:iid', getApplied);
 route.get('/user/accepbid/:id', accepBids);
 route.delete('/user/deleteBids/:id', deleteBids);
-route.get('/user/appliedJobs', getApplieds);
+route.get('/user/appliedJobsAll', getApplieds);
 
 
 
